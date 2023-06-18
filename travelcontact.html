@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My First Project - Travel Page </title>
+    <link rel="stylesheet" href="travelstyle.css">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <link rel="stylesheet" href="Cake Store.ttf">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <a href="travelhome.html"><label class="logo">Travel</label></a>
+                <ul>
+                    <li><a href="travelhome.html">Home</a></li>
+                    <li><a href="travelabout.html">About</a></li>
+                    <li><a href="travelgallery.html">Destinations</a></li>
+                    <li><a href="travelcontact.html">Contact Us</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+
+<style>
+    
+    * {box-sizing: border-box;}
+    
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: aquamarine;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container2 {
+      border-radius: 5px;
+      /*background-color: #f2f2f2;*/
+      backdrop-filter: blur(8px);
+      color: white;
+      padding: 20px;
+      width: 600px;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      float: right;
+      margin-top: 50px;
+      
+      
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+      }
+      img:hover{
+        transform: scale(1.07);
+      }
+    .contactus{
+    backdrop-filter: blur(10px);
+     width: 400px;
+     margin: 25px;
+     border-radius: 15px;
+     padding: 20px 20px;
+     float: left;
+     align-items: center;
+     text-align: center;
+     font-style: italic;
+     color: white;
+     margin-right: 70px;
+     margin-top: 50px;
+     
+    }
+    
+    .contactus h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+        
+    }
+    .contactus p{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+
+    }
+
+    section{
+        display: flex;
+        justify-content: center;
+   
+    }
+
+    </style>
+    </head>
+    <body>
+<section>
+    <div class="contactus">
+        <h2>Connect with us on social media</h2>
+        <p>Instagram:</p>
+        <a href="https://www.instagram.com"><img src="instagram.png" ></a>
+        <p>Facebook:</p>
+        <a href="https://www.facebook.com"><img src="facebook.png"></a>
+        <p> Twitter:</p>
+        <a href="https://twitter.com"><img src="twitter.png"></a>
+    </div>
+
+    <div class="container2">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="jane">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Smith">
+    
+        <label for="email">Email</label>
+        <input type="text" id="fname" name="email" placeholder="janesmith@gmail.com">
+    
+        <label for="subject">Your message</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+      
+    </div>
+
+</section>
+    
+    </body>
+    </html>
+    
